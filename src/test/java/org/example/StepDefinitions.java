@@ -20,7 +20,7 @@ public class StepDefinitions {
     public static final WishList wishlist;
 
     static {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Iron Maiden\\IdeaProjects\\MyProject35\\MyProject35\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         webDriver.manage().window().maximize();
